@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './App.css'
 import ReactPlayer from 'react-player'
-import Xtsy from './xtsy.mp4'
 import Mike from './miked.mp4'
 
 class App extends Component {
