@@ -17,7 +17,14 @@ body {
   position: relative;
   box-shadow: 0 80px 60px -60px rgba(0,0,0,0.4);
 }
-
+.text{
+  display: block;
+      position: absolute;
+      left: 2.5em;
+      top: 0.6em;
+      width: 10em;
+      font-family: apple_garamondregular, "Garamond", "Times New Roman", Times, serif;
+}
 .monitor {
   z-index: 2;
   display: block;
@@ -93,6 +100,8 @@ body {
   bottom: 22px;
   padding-left: 3.5px;
   box-shadow: 0 0 2px 0px #979181 inset;
+  background: url(//cssanimation.rocks/demo/macplus/images/bg/apple.png) no-repeat bottom;
+  background-size: 100%;
 }
 
 .logo p {
